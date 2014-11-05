@@ -14,21 +14,66 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
 
-  <body>
-    <header class="main-header">
-      <nav class="main-nav">
+  <body class="container">
+
+    <!-- Header -->
+    <header class="row mt-xs pos-rel">
+      <!-- Logo -->
+      <a href="#" class="col-sm-3">
+        <img src="holder.js/200x100/text: Logo" alt="" class="logo">
+      </a>
+
+      <!-- Main navigation -->
+      <nav class="col-sm-9 abs-r abs-b">
+        <ul class="nav nav-pills nav-justified">
+          <li><a href="#">Home</a></li>
+          <li class="active"><a href="#">Articles</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
-    <main>
-      <section class="main-content">
-      </section>
-      <aside class="main-aside">
+    <!-- Main content -->
+    <main class="row mt-m">
+
+      <!-- Article -->
+      <article class="col-sm-9">
+
+        <!-- Breadcrumb -->
+        <ul class="breadcrumb">
+          <li><a href="#">Home</a></li>
+          <li><a href="">Articles</a></li>
+          <li>My story</li>
+        </ul>
+
+        <h1>My story</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus cumque blanditiis possimus. Odio eaque hic ipsam ipsum perferendis autem eius eum molestias nesciunt unde, aperiam iure minima recusandae optio error!</p>
+
+        <h2>How it started</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos repellendus expedita, laborum rem, voluptate quia provident doloremque in error modi saepe maiores odio sequi rerum facere, inventore quam numquam placeat.</p>
+        <img src="holder.js/100%x300/text: " alt="">
+
+        <h2>How it ended</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos repellendus expedita, laborum rem, voluptate quia provident doloremque in error modi saepe maiores odio sequi rerum facere, inventore quam numquam placeat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur illum cupiditate nostrum nulla ut molestiae ab, quod cumque magnam consequuntur nihil, dolorem debitis. Facilis fuga ea, dolore voluptatibus officia excepturi?</p>
+      </article>
+
+      <!-- Side content -->
+      <aside class="col-sm-3">
+        <h1 class="h3 mt-none">Register now!</h1>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <form action="" class="form-group">
+          <label for="newsletter">Email</label>
+          <input type="email" name="email" id="newsletter" placeholder="you@email.com" class="form-control">
+          <button class="btn btn-default pull-right mt-xs">Register!</button>
+        </form>
       </aside>
     </main>
 
-    <footer class="main-footer">
-    </footer>
+
+    <!-- Footer -->
+    <footer class="main-footer mt-m bg-muted">&copy; Developing UXD</footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-2.1.1.js"></script>
@@ -36,7 +81,7 @@
     <!-- Bootstrap's JavaScript plugins -->
     <script src="js/bootstrap.js"></script>
 
-    <!-- holder.js for image placeholders. @see: https://github.com/imsky/holder -->
+    <!-- holder.js for image placeholders. https://github.com/imsky/holder -->
     <script src="js/holder.js"></script>
   </body>
 </html>

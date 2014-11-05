@@ -1,14 +1,6 @@
-.main-header {
-}
+/* generic styles */
+@import url("helper.css");
+@import url("base.css");
 
-.main-nav {
-}
-
-.main-content {
-}
-
-.main-aside {
-}
-
-.main-footer {
-}
+/* modules */
+@import url("main-footer.css");
