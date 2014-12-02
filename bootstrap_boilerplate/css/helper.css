@@ -12,47 +12,95 @@
   Color helper
  */
 
+/* missing color in bootstrap */
 .bg-muted {
   background-color: #f5f5f5;
 }
 
+/* Flex size image */
+.flex-image {
+  width: 100%;
+  height: auto;
+}
+
+/* hand cursor */
+.pointer {
+  cursor: pointer;
+}
+
 
 /*
-  Horizontal margin helpers
+  margin helpers
 */
-.ml-none { margin-left: 0; }
-.mr-none { margin-right: 0; }
-
-.ml-xs { margin-left: 15px; }
-.mr-xs { margin-right: 15px; }
-
-.ml-s { margin-left: 30px; }
-.mr-s { margin-right: 30px; }
-
-.ml-m { margin-left: 45px; }
-.mr-m { margin-right: 45px; }
-
-.ml-l { margin-left: 60px; }
-.mr-l { margin-right: 60px; }
-
-
-/*
-  Vertical margin helpers
- */
+.m-none  { margin: 0; }
 .mt-none { margin-top: 0; }
+.mr-none { margin-right: 0; }
 .mb-none { margin-bottom: 0; }
+.ml-none { margin-left: 0; }
 
 .mt-xs { margin-top: 15px; }
+.mr-xs { margin-right: 15px; }
 .mb-xs { margin-bottom: 15px; }
+.ml-xs { margin-left: 15px; }
 
-.mb-s { margin-bottom: 30px; }
 .mt-s { margin-top: 30px; }
+.mr-s { margin-right: 30px; }
+.mb-s { margin-bottom: 30px; }
+.ml-s { margin-left: 30px; }
 
-.mb-m { margin-bottom: 45px; }
 .mt-m { margin-top: 45px; }
+.mr-m { margin-right: 45px; }
+.mb-m { margin-bottom: 45px; }
+.ml-m { margin-left: 45px; }
 
-.mb-l { margin-bottom: 60px; }
 .mt-l { margin-top: 60px; }
+.mr-l { margin-right: 60px; }
+.mb-l { margin-bottom: 60px; }
+.ml-l { margin-left: 60px; }
+
+/*
+  padding helpers
+*/
+.p-none  { padding: 0; }
+.pt-none { padding-top: 0; }
+.pr-none { padding-right: 0; }
+.pb-none { padding-bottom: 0; }
+.pl-none { padding-left: 0; }
+
+.pt-xs { padding-top: 15px; }
+.pr-xs { padding-right: 15px; }
+.pb-xs { padding-bottom: 15px; }
+.pl-xs { padding-left: 15px; }
+
+.pt-s { padding-top: 30px; }
+.pr-s { padding-right: 30px; }
+.pb-s { padding-bottom: 30px; }
+.pl-s { padding-left: 30px; }
+
+.pt-m { padding-top: 45px; }
+.pr-m { padding-right: 45px; }
+.pb-m { padding-bottom: 45px; }
+.pl-m { padding-left: 45px; }
+
+.pt-l { padding-top: 60px; }
+.pr-l { padding-right: 60px; }
+.pb-l { padding-bottom: 60px; }
+.pl-l { padding-left: 60px; }
+
+
+/*
+  z-index helpers
+ */
+.z0  {z-index: 0; position: relative;}
+.z-1 {z-index: -1; position: relative;}
+.z-2 {z-index: -2; position: relative;}
+.z-3 {z-index: -3; position: relative;}
+.z-4 {z-index: -4; position: relative;}
+.z-5 {z-index: -5; position: relative;}
+.z-6 {z-index: -6; position: relative;}
+.z-7 {z-index: -7; position: relative;}
+.z-8 {z-index: -8; position: relative;}
+.z-9 {z-index: -9; position: relative;}
 
 
 /*
